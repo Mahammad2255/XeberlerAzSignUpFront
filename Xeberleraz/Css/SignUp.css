@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-image: url('../Photos/Photo3.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.sign-up-form{
+    width: 350px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #ffff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    
+    margin: 10px 0;
+    width: 95%;
+    border: 1px solid #999;
+
+}
+
+.option{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+  }
+
+  button{
+      columns: #fff;
+      width: 95%;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 15px;
+      margin: 10px 0;
+      border: none;
+      outline: none;
+      cursor: pointer;
+  }
+
+  .signup-btn:hover{
+      background-color: rgb(118, 202, 118);
+      transition: 0.5s;
+  }
+  .facebook-btn:hover{
+    background-color: #21afde;
+    transition: 0.5s;
+    }
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}

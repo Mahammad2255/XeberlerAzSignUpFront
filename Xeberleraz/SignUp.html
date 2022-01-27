@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/SignUp.css">
+    <link rel="stylesheet" href="Css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&display=swap" rel="stylesheet"> 
+    
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1 class="saytAdi">Xəbərlər<span>Az</span></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Əsas səhifə</a></li>
+            <li><a href="#">Xəbər kateqoriyaları</a></li>
+            <li><a href="#">Günün xəbərləri</a></li>
+            <li><a href="SignUp.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</header>
+    
+  <div class="sign-up-form">
+      <h1>Sign Up</h1>
+      <form>
+          <input type="text" class="input-box" placeholder="Usernami daxil edin">
+          <input type="email" class="input-box" placeholder="E-mailinizi daxil edin">
+          <input type="password" class="input-box" placeholder="Şifrənizi daxil edin">
+          <!-- ------------------------------------------------ -->
+          <h2 class="name">Hansı xəbərlərlə maraqlanırsız?</h2>
+          <select class="input-box" name="xeberler">
+            <option disabled="disabled" selected="selected">Xəbər seçin
+              <option>Siyasət</option>
+              <option>Xarici</option>
+              <option>İdman</option>
+              <option>Hər üçü</option>
+
+              <option>Digər</option>
+            </option>
+          </select>
+          
+          <h2 id="cinsiyyet">Cinsiyyətinizi daxil edin</h2>
+          <label class="radio">
+            <input class="radio-one" type="radio"  name="radio">
+           
+            Kişi
+          </label>
+          
+          <label class="radio">
+            <input class="radio-one" type="radio"  name="radio">
+
+            Qadın
+          </label>
+
+    <!-- ------------------------------------------------ -->
+          <br>
+         
+          <label for="birthday" ><h2 class="name">Ad gününüzü daxil edin:</h2></label>
+            <input type="date" class="input-box" id="birthday" name="birthday">
+        <br>
+        <button type="button" class="signup-btn">Sign Up</button>
+        <hr>
+        <p class="or">Facebook ilə qeydiyyatdan keç</p>
+        <button type="button" class="facebook-btn">Facebookla keç</button>
+          
+        
+      </form>
+    
+  </div>
+
+</body>
+
+</html>
